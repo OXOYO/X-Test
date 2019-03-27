@@ -7,9 +7,9 @@
 
 [Bug](./JavaScript/Bug.md)
 
-[Security Hotspot](./JavaScript/Security Hotspot.md)
+[Security Hotspot](./JavaScript/Security_Hotspot.md)
 
-[Code Smell](./JavaScript/Code Smell.md)
+[Code Smell](./JavaScript/Code_Smell.md)
 
 ### 标签
 
