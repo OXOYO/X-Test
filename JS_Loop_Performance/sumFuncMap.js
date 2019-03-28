@@ -9,8 +9,8 @@ let sumFuncMap = {
   twoSum_for: function (nums, target) {
     let T = new TimeCconsuming()
     for (let i = 0, L1 = nums.length; i < L1; i++) {
-      for (let j = 0, L2 = nums.length; j < L2; j++) {
-        if (nums[i] + nums[j] === target) {
+      for (let j = 0; j < L1; j++) {
+        if (i !== j && nums[i] + nums[j] === target) {
           let time = T.get()
           return [i, j, nums[i], nums[j], time]
         }
@@ -20,9 +20,9 @@ let sumFuncMap = {
   // for循环
   twoSum_for1: function (nums, target) {
     let T = new TimeCconsuming()
-    for (let i = 0, v1; v1 = nums[i++];) {
-      for (let j = 0, v2; v2 = nums[j++];) {
-        if (v1 + v2 === target) {
+    for (let i = 0, v1; v1 = nums[i++], v1 !== undefined;) {
+      for (let j = 0, v2; v2 = nums[j++], v2 !== undefined;) {
+        if (i !== j && v1 + v2 === target) {
           let time = T.get()
           return [i - 1, j - 1, v1, v2, time]
         }
@@ -34,7 +34,7 @@ let sumFuncMap = {
     let T = new TimeCconsuming()
     for (let i = nums.length; i > -1; i--) {
       for (let j = nums.length; j > -1; j--) {
-        if (nums[i] + nums[j] === target) {
+        if (i !== j && nums[i] + nums[j] === target) {
           let time = T.get()
           return [i, j, nums[i], nums[j], time]
         }
@@ -46,7 +46,7 @@ let sumFuncMap = {
     let T = new TimeCconsuming()
     for (let i in nums) {
       for (let j in nums) {
-        if (nums[i] + nums[j] === target) {
+        if (i !== j && nums[i] + nums[j] === target) {
           let time = T.get()
           return [i, j, nums[i], nums[j], time]
         }
@@ -60,7 +60,7 @@ let sumFuncMap = {
     nums.forEach(function (v1, i) {
       if (!res) {
         nums.forEach(function (v2, j) {
-          if (!res && v1 + v2 === target) {
+          if (!res && i !== j && v1 + v2 === target) {
             let time = T.get()
             res = [i, j, v1, v2, time]
           }
@@ -76,7 +76,7 @@ let sumFuncMap = {
     nums.map((v1, i) => {
       if (!res) {
         nums.map((v2, j) => {
-          if (!res && v1 + v2 === target) {
+          if (!res && i !== j && v1 + v2 === target) {
             let time = T.get()
             res = [i, j, v1, v2, time]
           }
@@ -96,7 +96,7 @@ let sumFuncMap = {
       if (res) {
         break
       }
-      while (j < L) {
+      while (j < L && i !== j) {
         if (res) {
           break
         }
