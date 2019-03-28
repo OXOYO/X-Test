@@ -69,7 +69,7 @@ let main = function () {
       let el = document.querySelector('#' + funcName)
       return el && el.checked
     })
-    if (!funcNameArr) {
+    if (funcNameArr.length) {
       // 隐藏loading
       chartInstance.hideLoading()
       return
