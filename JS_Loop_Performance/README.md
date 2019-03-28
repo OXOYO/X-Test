@@ -31,6 +31,7 @@ JS 循环性能测试
 
 ```
   twoSum_for: 普通for循环
+  twoSum_for_single: 单层普通for循环
   twoSum_for_reverse: 倒序循环
   twoSum_for_in: for...in循环
   twoSum_forEach: forEach循环

@@ -17,6 +17,17 @@ let sumFuncMap = {
       }
     }
   },
+  // 单层for循环
+  twoSum_for_single: function (nums, target) {
+    let T = new TimeCconsuming()
+    for (let i = 0, len = nums.length, j; i < len; i++) {
+      j = nums.indexOf(target - nums[i])
+      if (j > -1 && i !== j) {
+        let time = T.get()
+        return [i, j, nums[i], nums[j], time]
+      }
+    }
+  },
   // for循环
   twoSum_for1: function (nums, target) {
     let T = new TimeCconsuming()
