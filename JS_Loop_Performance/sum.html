@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SUM</title>
+  <link rel="stylesheet" href="./sum.css">
+</head>
+<body>
+  <div class="main">
+    <div class="block">
+      <div class="block-header">
+        <div class="title">JS循环性能测试</div>
+        <div class="tools"></div>
+      </div>
+      <div class="block-body">
+        <div class="form">
+          <input class="form-item" type="number" value="100000" id="length" placeholder="请输入待求值的数组长度">
+          <input class="form-item" type="number" value="100" id="target" placeholder="请输入目标值">
+          <input class="form-item" type="number" value="20" id="max" placeholder="请输入性能测试循环次数">
+          <div class="form-item">
+            <input class="form-input" type="checkbox" name="functionName" value="twoSum_for" id="twoSum_for" checked>
+            <label for="twoSum_for">twoSum_for</label>
+          </div>
+          <div class="form-item">
+            <input class="form-input" type="checkbox" name="functionName" value="twoSum_for1" id="twoSum_for1">
+            <label for="twoSum_for1">twoSum_for1</label>
+          </div>
+          <div class="form-item">
+            <input class="form-input" type="checkbox" name="functionName" value="twoSum_for_reverse" id="twoSum_for_reverse">
+            <label for="twoSum_for_reverse">twoSum_for_reverse</label>
+          </div>
+          <div class="form-item">
+            <input class="form-input" type="checkbox" name="functionName" value="twoSum_while" id="twoSum_while">
+            <label for="twoSum_while">twoSum_while</label>
+          </div>
+          <div class="form-item">
+            <input class="form-input" type="checkbox" name="functionName" value="twoSum_for_in" id="twoSum_for_in">
+            <label for="twoSum_for_in">twoSum_for_in</label>
+          </div>
+          <div class="form-item">
+            <input class="form-input" type="checkbox" name="functionName" value="twoSum_forEach" id="twoSum_forEach" checked>
+            <label for="twoSum_forEach">twoSum_forEach</label>
+          </div>
+          <div class="form-item">
+            <input class="form-input" type="checkbox" name="functionName" value="twoSum_map" id="twoSum_map">
+            <label for="twoSum_map">twoSum_map</label>
+          </div>
+          <!--
+          <div class="form-item">
+            <input class="form-input" type="checkbox" name="functionName" value="twoSum_duff_device" id="twoSum_duff_device">
+            <label for="twoSum_duff_device">twoSum_duff_device</label>
+          </div>
+          -->
+
+          <div class="clear"></div>
+          <button id="refresh" class="btn">Refresh</button>
+        </div>
+        <div id="chart" class="chart-instance"></div>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.bootcss.com/echarts/4.2.1-rc1/echarts.js"></script>
+  <script src="./sumFuncMap.js"></script>
+  <script src="./chartOption.js"></script>
+  <script src="./sum.js"></script>
+</body>
+</html>
