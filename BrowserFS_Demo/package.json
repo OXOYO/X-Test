@@ -1,0 +1,14 @@
+{
+  "name": "browserfs_demo",
+  "version": "1.0.0",
+  "description": "BrowserFS是一个浏览器内文件系统，它模拟Node JS文件系统API，并支持存储和检索来自各种后端的文件。BrowserFS还可以很好地集成到Emscripten文件系统中。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "browserfs": "^1.4.3"
+  }
+}
