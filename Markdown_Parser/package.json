@@ -1,0 +1,20 @@
+{
+  "name": "markdown_parser",
+  "version": "1.0.0",
+  "description": "Markdown解析器",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "marked": "^0.6.1",
+    "remark-html": "^9.0.0",
+    "remark-parse": "^6.0.3",
+    "remark-stringify": "^6.0.4",
+    "unified": "^7.1.0",
+    "unified-stream": "^1.0.4",
+    "vfile": "^4.0.0"
+  }
+}
