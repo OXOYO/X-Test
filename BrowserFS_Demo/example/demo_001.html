@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Demo_001</title>
+  <style>
+    .clear {
+      clear: both;
+    }
+    .header {
+      margin: 10px;
+    }
+    .btn {
+      margin: 5px;
+      padding: 5px;
+    }
+    .content {
+      box-shadow: 0 0 2px 2px rgba(0, 0, 0, .1);
+    }
+  </style>
+</head>
+<body>
+  <h1>Demo_001</h1>
+  <div class="header">
+    <button id="read" class="btn">Read</button>
+    <button id="write" class="btn">Write</button>
+  </div>
+  <div class="clear"></div>
+  <div class="body">
+    <textarea id="content" class="content" rows="10" cols="50"></textarea>
+  </div>
+
+  <script src="browserfs.js"></script>
+  <script>
+    // 1.初始化BrowserFS
+    // 挂载到window对象下
+    BrowserFS.install(window)
+    // 配置BrowserFS，使用LocalStorage作为文件系统
+    BrowserFS.configure({
+      fs: 'LocalStorage'
+    }, function (err) {
+      if (err) {
+        // 抛出异常
+        throw err
+      }
+      // 否则，BrowserFS初始化成功
+    })
+    // 2.绑定事件
+    let elRead = document.querySelector('#read')
+    let elWrite = document.querySelector('#write')
+    let elContent = document.querySelector('#content')
+    elWrite.addEventListener('click', function (event) {
+      event.preventDefault()
+      event.stopPropagation()
+      let content = elContent.value
+      console.log('content', content)
+      const fs = BrowserFS.node.fs
+      fs.writeFile('/test.txt', content, function(err) {
+        console.log('err', err)
+      })
+    })
+  </script>
+</body>
+</html>
