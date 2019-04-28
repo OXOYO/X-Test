@@ -1,0 +1,15 @@
+{
+  "name": "koa_redis",
+  "version": "1.0.0",
+  "description": "## 安装",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "OXOYO",
+  "license": "MIT",
+  "dependencies": {
+    "ioredis": "^4.9.0",
+    "koa": "^2.7.0"
+  }
+}
