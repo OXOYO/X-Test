@@ -24,3 +24,5 @@
 [Node_Cluster](./Node_Cluster) node cluster 示例
 
 [Node_Crypto](./Node_Crypto) node crypto 加密、解密示例
+
+[vuese](./vuese) vuese parser测试
