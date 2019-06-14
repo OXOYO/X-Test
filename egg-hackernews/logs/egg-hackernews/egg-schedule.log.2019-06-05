@@ -1,0 +1,30 @@
+2019-06-05 10:40:36,942 INFO 22316 [Timer] E:\WorkSpace_Webstorm\X-Test\egg-hackernews\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 64163061ms at 2019-06-06 04:30:00.003
+2019-06-05 10:40:36,943 INFO 22316 [Timer] E:\WorkSpace_Webstorm\X-Test\egg-hackernews\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 47963057ms at 2019-06-06 00:00:00.000
+2019-06-05 10:40:36,943 INFO 22316 [Timer] E:\WorkSpace_Webstorm\X-Test\egg-hackernews\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 47964057ms at 2019-06-06 00:00:01.000
+2019-06-05 10:40:36,817 INFO 31880 [egg-schedule]: register schedule E:\WorkSpace_Webstorm\X-Test\egg-hackernews\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-06-05 10:40:36,817 INFO 31880 [egg-schedule]: register schedule E:\WorkSpace_Webstorm\X-Test\egg-hackernews\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-06-05 10:40:36,817 INFO 31880 [egg-schedule]: register schedule E:\WorkSpace_Webstorm\X-Test\egg-hackernews\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-06-05 10:59:55,209 INFO 1100 [Timer] E:\WorkSpace_Webstorm\X-Test\egg-hackernews\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 63004794ms at 2019-06-06 04:30:00.003
+2019-06-05 10:59:55,209 INFO 1100 [Timer] E:\WorkSpace_Webstorm\X-Test\egg-hackernews\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 46804791ms at 2019-06-06 00:00:00.000
+2019-06-05 10:59:55,210 INFO 1100 [Timer] E:\WorkSpace_Webstorm\X-Test\egg-hackernews\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 46805791ms at 2019-06-06 00:00:01.001
+2019-06-05 10:59:55,078 INFO 29864 [egg-schedule]: register schedule E:\WorkSpace_Webstorm\X-Test\egg-hackernews\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-06-05 10:59:55,078 INFO 29864 [egg-schedule]: register schedule E:\WorkSpace_Webstorm\X-Test\egg-hackernews\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-06-05 10:59:55,078 INFO 29864 [egg-schedule]: register schedule E:\WorkSpace_Webstorm\X-Test\egg-hackernews\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-06-05 11:13:27,900 INFO 21768 [egg-schedule]: register schedule E:\WorkSpace_Webstorm\X-Test\egg-hackernews\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-06-05 11:13:27,900 INFO 21768 [egg-schedule]: register schedule E:\WorkSpace_Webstorm\X-Test\egg-hackernews\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-06-05 11:13:27,900 INFO 21768 [egg-schedule]: register schedule E:\WorkSpace_Webstorm\X-Test\egg-hackernews\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-06-05 11:13:30,551 INFO 23528 [egg-schedule]: register schedule E:\WorkSpace_Webstorm\X-Test\egg-hackernews\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-06-05 11:13:30,551 INFO 23528 [egg-schedule]: register schedule E:\WorkSpace_Webstorm\X-Test\egg-hackernews\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-06-05 11:13:30,551 INFO 23528 [egg-schedule]: register schedule E:\WorkSpace_Webstorm\X-Test\egg-hackernews\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-06-05 11:15:30,417 INFO 24128 [Timer] E:\WorkSpace_Webstorm\X-Test\egg-hackernews\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 62069590ms at 2019-06-06 04:30:00.007
+2019-06-05 11:15:30,417 INFO 24128 [Timer] E:\WorkSpace_Webstorm\X-Test\egg-hackernews\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 45869583ms at 2019-06-06 00:00:00.000
+2019-06-05 11:15:30,418 INFO 24128 [Timer] E:\WorkSpace_Webstorm\X-Test\egg-hackernews\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 45870583ms at 2019-06-06 00:00:01.001
+2019-06-05 11:15:30,301 INFO 17992 [egg-schedule]: register schedule E:\WorkSpace_Webstorm\X-Test\egg-hackernews\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-06-05 11:15:30,301 INFO 17992 [egg-schedule]: register schedule E:\WorkSpace_Webstorm\X-Test\egg-hackernews\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-06-05 11:15:30,301 INFO 17992 [egg-schedule]: register schedule E:\WorkSpace_Webstorm\X-Test\egg-hackernews\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-06-05 23:59:59,561 INFO 24128 [Timer] E:\WorkSpace_Webstorm\X-Test\egg-hackernews\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 86400458ms at 2019-06-07 00:00:00.017
+2019-06-05 23:59:59,654 INFO 17992 [Job#15597503995142275324646388471] E:\WorkSpace_Webstorm\X-Test\egg-hackernews\node_modules\egg-logrotator\app\schedule\clean_log.js executing by app
+2019-06-05 23:59:59,705 INFO 17992 [Job#15597503995142275324646388471] E:\WorkSpace_Webstorm\X-Test\egg-hackernews\node_modules\egg-logrotator\app\schedule\clean_log.js execute succeed, used 38ms
+2019-06-06 00:00:00,487 INFO 17992 [Job#15597504004822275334278551081] E:\WorkSpace_Webstorm\X-Test\egg-hackernews\node_modules\egg-logrotator\app\schedule\rotate_by_file.js executing by app
+2019-06-06 00:00:00,509 INFO 17992 [Job#15597504004822275334278551081] E:\WorkSpace_Webstorm\X-Test\egg-hackernews\node_modules\egg-logrotator\app\schedule\rotate_by_file.js execute succeed, used 22ms
+2019-06-06 00:00:00,484 INFO 24128 [Timer] E:\WorkSpace_Webstorm\X-Test\egg-hackernews\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 86400517ms at 2019-06-07 00:00:01.001

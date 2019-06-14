@@ -1,0 +1,66 @@
+2019-06-05 11:13:47,177 ERROR 23528 [-/127.0.0.1/-/6ms GET /news] nodejs.ReferenceError: serverUrl is not defined
+    at NewsService.list (E:\WorkSpace_Webstorm\X-Test\egg-hackernews\app\service\news.js:13:53)
+    at NewsController.list (E:\WorkSpace_Webstorm\X-Test\egg-hackernews\app\controller\news.js:13:45)
+    at Object.callFn (E:\WorkSpace_Webstorm\X-Test\egg-hackernews\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\WorkSpace_Webstorm\X-Test\egg-hackernews\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\WorkSpace_Webstorm\X-Test\egg-hackernews\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\WorkSpace_Webstorm\X-Test\egg-hackernews\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\WorkSpace_Webstorm\X-Test\egg-hackernews\node_modules\koa-compose\index.js:44:32)
+    at next (E:\WorkSpace_Webstorm\X-Test\egg-hackernews\node_modules\koa-compose\index.js:45:18)
+    at E:\WorkSpace_Webstorm\X-Test\egg-hackernews\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\WorkSpace_Webstorm\X-Test\egg-hackernews\node_modules\koa-compose\index.js:44:32)
+
+pid: 23528
+hostname: AT9244
+
+2019-06-05 11:14:21,699 ERROR 23528 [-/127.0.0.1/-/0ms GET /news] nodejs.ReferenceError: serverUrl is not defined
+    at NewsService.list (E:\WorkSpace_Webstorm\X-Test\egg-hackernews\app\service\news.js:13:53)
+    at NewsController.list (E:\WorkSpace_Webstorm\X-Test\egg-hackernews\app\controller\news.js:13:45)
+    at Object.callFn (E:\WorkSpace_Webstorm\X-Test\egg-hackernews\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\WorkSpace_Webstorm\X-Test\egg-hackernews\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\WorkSpace_Webstorm\X-Test\egg-hackernews\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\WorkSpace_Webstorm\X-Test\egg-hackernews\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\WorkSpace_Webstorm\X-Test\egg-hackernews\node_modules\koa-compose\index.js:44:32)
+    at next (E:\WorkSpace_Webstorm\X-Test\egg-hackernews\node_modules\koa-compose\index.js:45:18)
+    at E:\WorkSpace_Webstorm\X-Test\egg-hackernews\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\WorkSpace_Webstorm\X-Test\egg-hackernews\node_modules\koa-compose\index.js:44:32)
+
+pid: 23528
+hostname: AT9244
+
+2019-06-05 11:17:18,558 ERROR 17992 [-/127.0.0.1/-/5050ms GET /news] nodejs.ConnectionTimeoutError: Connect timeout for 5000ms, GET https://hacker-news.firebaseio.com/v0/topstories.json -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+headers: {}
+    at Timeout._onTimeout (E:\WorkSpace_Webstorm\X-Test\egg-hackernews\node_modules\urllib\lib\urllib.js:923:15)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ConnectionTimeoutError"
+requestId: 1
+data: undefined
+path: "/v0/topstories.json?orderBy=%22%24key%22&startAt=%22%25%7BpageSize%20*%20(page%20-%201)%7D%22&endAt=%224%22"
+status: -2
+headers: {}
+res: {"status":-2,"statusCode":-2,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":5046,"keepAliveSocket":false,"requestUrls":["https://hacker-news.firebaseio.com/v0/topstories.json"],"timing":null,"remoteAddress":"35.201.97.85","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 17992
+hostname: AT9244
+
+2019-06-05 13:46:10,934 ERROR 17992 [-/127.0.0.1/-/5017ms GET /news] nodejs.ConnectionTimeoutError: Connect timeout for 5000ms, GET https://hacker-news.firebaseio.com/v0/topstories.json -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":2,"createSocketErrorCount":0,"closeSocketCount":2,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+headers: {}
+    at Timeout._onTimeout (E:\WorkSpace_Webstorm\X-Test\egg-hackernews\node_modules\urllib\lib\urllib.js:923:15)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ConnectionTimeoutError"
+requestId: 2
+data: undefined
+path: "/v0/topstories.json?orderBy=%22%24key%22&startAt=%22%25%7BpageSize%20*%20(page%20-%201)%7D%22&endAt=%224%22"
+status: -2
+headers: {}
+res: {"status":-2,"statusCode":-2,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":5014,"keepAliveSocket":false,"requestUrls":["https://hacker-news.firebaseio.com/v0/topstories.json"],"timing":null,"remoteAddress":"35.201.97.85","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 17992
+hostname: AT9244
+

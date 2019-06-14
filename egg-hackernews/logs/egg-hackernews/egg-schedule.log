@@ -1,0 +1,3 @@
+2019-06-06 04:29:51,975 INFO 17992 [Job#15597665907732437324396898091] E:\WorkSpace_Webstorm\X-Test\egg-hackernews\node_modules\egg-multipart\app\schedule\clean_tmpdir.js executing by app
+2019-06-06 04:29:52,005 INFO 17992 [Job#15597665907732437324396898091] E:\WorkSpace_Webstorm\X-Test\egg-hackernews\node_modules\egg-multipart\app\schedule\clean_tmpdir.js execute succeed, used 29ms
+2019-06-06 04:29:50,781 INFO 24128 [Timer] E:\WorkSpace_Webstorm\X-Test\egg-hackernews\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 86409221ms at 2019-06-07 04:30:00.002

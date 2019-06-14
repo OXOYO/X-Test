@@ -1,0 +1,74 @@
+2019-06-05 10:40:36,790 INFO 31880 [egg:logger] init all loggers with options: {"dir":"E:\\WorkSpace_Webstorm\\X-Test\\egg-hackernews\\logs\\egg-hackernews","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-hackernews-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-06-05 10:40:36,818 INFO 31880 [egg-multipart] stream mode enable
+2019-06-05 10:40:36,903 INFO 31880 [egg-static] starting static serve /public/ -> E:\WorkSpace_Webstorm\X-Test\egg-hackernews\app\public
+2019-06-05 10:40:36,906 INFO 31880 [egg-security] use csrf middleware
+2019-06-05 10:40:36,908 INFO 31880 [egg-security] use methodnoallow middleware
+2019-06-05 10:40:36,908 INFO 31880 [egg-security] use noopen middleware
+2019-06-05 10:40:36,909 INFO 31880 [egg-security] use nosniff middleware
+2019-06-05 10:40:36,910 INFO 31880 [egg-security] use xssProtection middleware
+2019-06-05 10:40:36,911 INFO 31880 [egg-security] use xframe middleware
+2019-06-05 10:40:36,911 INFO 31880 [egg-security] use dta middleware
+2019-06-05 10:40:36,911 INFO 31880 [egg-security] compose 7 middlewares into one security middleware
+2019-06-05 10:40:36,919 INFO 31880 [egg:core] dump config after load, 4ms
+2019-06-05 10:40:36,931 INFO 31880 [egg-watcher:application] watcher start success
+2019-06-05 10:40:36,936 INFO 31880 [egg:core] dump config after ready, 4ms
+2019-06-05 10:59:55,051 INFO 29864 [egg:logger] init all loggers with options: {"dir":"E:\\WorkSpace_Webstorm\\X-Test\\egg-hackernews\\logs\\egg-hackernews","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-hackernews-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-06-05 10:59:55,078 INFO 29864 [egg-multipart] stream mode enable
+2019-06-05 10:59:55,164 INFO 29864 [egg-static] starting static serve /public/ -> E:\WorkSpace_Webstorm\X-Test\egg-hackernews\app\public
+2019-06-05 10:59:55,168 INFO 29864 [egg-security] use csrf middleware
+2019-06-05 10:59:55,169 INFO 29864 [egg-security] use methodnoallow middleware
+2019-06-05 10:59:55,170 INFO 29864 [egg-security] use noopen middleware
+2019-06-05 10:59:55,171 INFO 29864 [egg-security] use nosniff middleware
+2019-06-05 10:59:55,171 INFO 29864 [egg-security] use xssProtection middleware
+2019-06-05 10:59:55,172 INFO 29864 [egg-security] use xframe middleware
+2019-06-05 10:59:55,173 INFO 29864 [egg-security] use dta middleware
+2019-06-05 10:59:55,173 INFO 29864 [egg-security] compose 7 middlewares into one security middleware
+2019-06-05 10:59:55,182 INFO 29864 [egg:core] dump config after load, 5ms
+2019-06-05 10:59:55,198 INFO 29864 [egg-watcher:application] watcher start success
+2019-06-05 10:59:55,203 INFO 29864 [egg:core] dump config after ready, 4ms
+2019-06-05 11:00:00,048 INFO 29864 [egg-view-nunjucks] loading templates from ["E:\\WorkSpace_Webstorm\\X-Test\\egg-hackernews\\app\\view"]
+2019-06-05 11:13:27,872 INFO 21768 [egg:logger] init all loggers with options: {"dir":"E:\\WorkSpace_Webstorm\\X-Test\\egg-hackernews\\logs\\egg-hackernews","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-hackernews-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-06-05 11:13:27,901 INFO 21768 [egg-multipart] stream mode enable
+2019-06-05 11:13:27,974 INFO 21768 [egg-static] starting static serve /public/ -> E:\WorkSpace_Webstorm\X-Test\egg-hackernews\app\public
+2019-06-05 11:13:27,977 INFO 21768 [egg-security] use csrf middleware
+2019-06-05 11:13:27,978 INFO 21768 [egg-security] use methodnoallow middleware
+2019-06-05 11:13:27,979 INFO 21768 [egg-security] use noopen middleware
+2019-06-05 11:13:27,980 INFO 21768 [egg-security] use nosniff middleware
+2019-06-05 11:13:27,981 INFO 21768 [egg-security] use xssProtection middleware
+2019-06-05 11:13:27,981 INFO 21768 [egg-security] use xframe middleware
+2019-06-05 11:13:27,982 INFO 21768 [egg-security] use dta middleware
+2019-06-05 11:13:27,982 INFO 21768 [egg-security] compose 7 middlewares into one security middleware
+2019-06-05 11:13:27,991 INFO 21768 [egg:core] dump config after load, 5ms
+2019-06-05 11:13:28,004 INFO 21768 [egg-watcher:application] watcher start success
+2019-06-05 11:13:28,012 INFO 21768 [egg:core] dump config after ready, 4ms
+2019-06-05 11:13:30,525 INFO 23528 [egg:logger] init all loggers with options: {"dir":"E:\\WorkSpace_Webstorm\\X-Test\\egg-hackernews\\logs\\egg-hackernews","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-hackernews-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-06-05 11:13:30,552 INFO 23528 [egg-multipart] stream mode enable
+2019-06-05 11:13:30,628 INFO 23528 [egg-static] starting static serve /public/ -> E:\WorkSpace_Webstorm\X-Test\egg-hackernews\app\public
+2019-06-05 11:13:30,631 INFO 23528 [egg-security] use csrf middleware
+2019-06-05 11:13:30,632 INFO 23528 [egg-security] use methodnoallow middleware
+2019-06-05 11:13:30,633 INFO 23528 [egg-security] use noopen middleware
+2019-06-05 11:13:30,634 INFO 23528 [egg-security] use nosniff middleware
+2019-06-05 11:13:30,635 INFO 23528 [egg-security] use xssProtection middleware
+2019-06-05 11:13:30,635 INFO 23528 [egg-security] use xframe middleware
+2019-06-05 11:13:30,636 INFO 23528 [egg-security] use dta middleware
+2019-06-05 11:13:30,636 INFO 23528 [egg-security] compose 7 middlewares into one security middleware
+2019-06-05 11:13:30,645 INFO 23528 [egg:core] dump config after load, 5ms
+2019-06-05 11:13:30,658 INFO 23528 [egg-watcher:application] watcher start success
+2019-06-05 11:13:30,665 INFO 23528 [egg:core] dump config after ready, 3ms
+2019-06-05 11:15:30,275 INFO 17992 [egg:logger] init all loggers with options: {"dir":"E:\\WorkSpace_Webstorm\\X-Test\\egg-hackernews\\logs\\egg-hackernews","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-hackernews-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-06-05 11:15:30,302 INFO 17992 [egg-multipart] stream mode enable
+2019-06-05 11:15:30,371 INFO 17992 [egg-static] starting static serve /public/ -> E:\WorkSpace_Webstorm\X-Test\egg-hackernews\app\public
+2019-06-05 11:15:30,374 INFO 17992 [egg-security] use csrf middleware
+2019-06-05 11:15:30,376 INFO 17992 [egg-security] use methodnoallow middleware
+2019-06-05 11:15:30,376 INFO 17992 [egg-security] use noopen middleware
+2019-06-05 11:15:30,378 INFO 17992 [egg-security] use nosniff middleware
+2019-06-05 11:15:30,378 INFO 17992 [egg-security] use xssProtection middleware
+2019-06-05 11:15:30,379 INFO 17992 [egg-security] use xframe middleware
+2019-06-05 11:15:30,379 INFO 17992 [egg-security] use dta middleware
+2019-06-05 11:15:30,379 INFO 17992 [egg-security] compose 7 middlewares into one security middleware
+2019-06-05 11:15:30,388 INFO 17992 [egg:core] dump config after load, 5ms
+2019-06-05 11:15:30,402 INFO 17992 [egg-watcher:application] watcher start success
+2019-06-05 11:15:30,407 INFO 17992 [egg:core] dump config after ready, 3ms
+2019-06-05 23:59:59,705 INFO 17992 [egg-logrotator] clean all log before 31 days
+2019-06-06 00:00:00,509 INFO 17992 [egg-logrotator] broadcast log-reload
+2019-06-06 00:00:00,509 INFO 17992 [egg-logrotator] rotate files success by DayRotator, files ["E:\\WorkSpace_Webstorm\\X-Test\\egg-hackernews\\logs\\egg-hackernews\\common-error.log -> E:\\WorkSpace_Webstorm\\X-Test\\egg-hackernews\\logs\\egg-hackernews\\common-error.log.2019-06-05","E:\\WorkSpace_Webstorm\\X-Test\\egg-hackernews\\logs\\egg-hackernews\\egg-hackernews-web.log -> E:\\WorkSpace_Webstorm\\X-Test\\egg-hackernews\\logs\\egg-hackernews\\egg-hackernews-web.log.2019-06-05","E:\\WorkSpace_Webstorm\\X-Test\\egg-hackernews\\logs\\egg-hackernews\\egg-web.log -> E:\\WorkSpace_Webstorm\\X-Test\\egg-hackernews\\logs\\egg-hackernews\\egg-web.log.2019-06-05","E:\\WorkSpace_Webstorm\\X-Test\\egg-hackernews\\logs\\egg-hackernews\\egg-schedule.log -> E:\\WorkSpace_Webstorm\\X-Test\\egg-hackernews\\logs\\egg-hackernews\\egg-schedule.log.2019-06-05","E:\\WorkSpace_Webstorm\\X-Test\\egg-hackernews\\logs\\egg-hackernews\\egg-agent.log -> E:\\WorkSpace_Webstorm\\X-Test\\egg-hackernews\\logs\\egg-hackernews\\egg-agent.log.2019-06-05"]
