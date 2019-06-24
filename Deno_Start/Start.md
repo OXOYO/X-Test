@@ -32,3 +32,5 @@ scoop install deno
 deno https://deno.land/welcome.ts
 ```
 ![](./img/201906241053228.png)
+
+至此`Windows`下`deno`运行环境安装完成。
