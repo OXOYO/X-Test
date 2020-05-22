@@ -45,4 +45,6 @@
 
 [X-Bing-Wallpaper](./X-Bing-Wallpaper) @oxoyo/xbw bing壁纸npm包测试
 
+[Socket](./Socket) 基于Socket的多人聊天系统示例
+
 
