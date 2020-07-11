@@ -47,4 +47,6 @@
 
 [Socket](./Socket) 基于Socket的多人聊天系统示例
 
+[xfc-demo](./xfc-demo) @oxoyo/xf包使用示例
+
 
