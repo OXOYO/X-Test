@@ -22,7 +22,7 @@
   "homepage": "https://github.com/OXOYO/X-RESTful-API-Generator-Koa#readme",
   "dependencies": {
     "axios": "^0.17.1",
-    "codecov": "^3.0.0",
+    "codecov": "^3.7.1",
     "jsonwebtoken": "^8.1.0",
     "koa": "^2.3.0",
     "koa-body": "^4.1.0",
