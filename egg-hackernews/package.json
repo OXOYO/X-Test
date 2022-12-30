@@ -13,6 +13,6 @@
     "egg-view-nunjucks": "^2.2.0"
   },
   "devDependencies": {
-    "egg-bin": "^4.13.0"
+    "egg-bin": "^5.9.0"
   }
 }
