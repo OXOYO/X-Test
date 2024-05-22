@@ -1,0 +1,15 @@
+{
+  "name": "jieba",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@node-rs/jieba": "^1.10.3",
+    "nodejieba": "^2.6.0"
+  }
+}
