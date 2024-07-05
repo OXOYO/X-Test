@@ -1,0 +1,16 @@
+{
+  "name": "random-nickname",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "chinese-random-name": "^2.0.1",
+    "namey": "^1.0.0"
+  }
+}
