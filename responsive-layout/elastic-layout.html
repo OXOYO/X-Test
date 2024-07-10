@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <title>弹性布局</title>
+  <link href="https://cdn.bootcdn.net/ajax/libs/normalize/8.0.1/normalize.css" rel="stylesheet">
+  <style>
+    html {
+      width: 100%;
+      overflow: auto;
+      /* 字体换算为1rem = 100px */
+      font-size: 625%;
+    }
+    body {
+      display: inline-block;
+      text-align: center;
+      background-color: #FFFFFF;
+      padding: 0;
+      margin: 0 0 0.2rem;
+      border-bottom-left-radius: 0.1rem;
+      border-bottom-right-radius: 0.1rem;
+      box-sizing: border-box;
+      width: 100%;
+    }
+    .container {
+      display: inline-block;
+      margin: 0 auto;
+      width: 66.67%;
+      background-color: #f5f5f5;
+      box-sizing: border-box;
+      font-size: 0;
+    }
+    .header {
+      display: inline-block;
+      width: 100%;
+      height: 60px;
+      background-color: #dddddd;
+      margin-bottom: 0.2rem;
+      box-sizing: border-box;
+      font-size: 0.16rem;
+      text-align: center;
+      line-height: 60px;
+    }
+
+    .banner {
+      display: inline-block;
+      width: 100%;
+      height: 200px;
+      background-color: #dddddd;
+      margin-bottom: 0.2rem;
+      border-radius: 0.1rem;
+      box-sizing: border-box;
+    }
+    .box-wrapper {
+      display: inline-block;
+      width: 100%;
+    }
+    .left-box {
+      display: inline-block;
+      width: 20.84%;
+      height: 1000px;
+      background-color: #dddddd;
+      margin-right: 0.2rem;
+      border-radius: 0.1rem;
+      box-sizing: border-box;
+    }
+    .right-box {
+      display: inline-block;
+      width: calc(79.16% - 0.2rem);
+      height: 1000px;
+      background-color: #dddddd;
+      border-radius: 0.1rem;
+      box-sizing: border-box;
+    }
+
+    /* 小屏 */
+    @media screen and (max-width:768px) {
+      .container {
+        width: 100%;
+        background-color: #2c3e50;
+      }
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+  <div class="header">弹性布局</div>
+  <div class="banner"></div>
+  <div class="box-wrapper">
+    <div class="left-box"></div>
+    <div class="right-box"></div>
+  </div>
+</div>
+</body>
+</html>
