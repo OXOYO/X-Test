@@ -1,0 +1,72 @@
+<html><head>
+    <meta charset="utf-8">
+    <title>Polygon Intersection with BMap and Turf.js</title>
+    <script src="http://api.map.baidu.com/api?v=2.0&amp;ak="></script>
+    <script src="https://unpkg.com/@turf/turf/turf.min.js"></script>
+</head>
+<body>
+<div id="map" style="width: 100%; height: 500px;"></div>
+<script>
+    // 初始化百度地图
+    var map = new BMap.Map("map");
+    var point = new BMap.Point(116.404, 39.915);
+    map.centerAndZoom(point, 15);
+
+    // 定义两个多边形
+    var polygon1 = new BMap.Polygon([
+        new BMap.Point(116.403, 39.920),
+        new BMap.Point(116.402, 39.915),
+        new BMap.Point(116.406, 39.915),
+        new BMap.Point(116.407, 39.920)
+    ], {strokeColor: "blue", fillColor: "blue", fillOpacity: 0.3});
+
+    var polygon2 = new BMap.Polygon([
+        new BMap.Point(116.405, 39.917),
+        new BMap.Point(116.404, 39.912),
+        new BMap.Point(116.408, 39.912),
+        new BMap.Point(116.409, 39.917)
+    ], {strokeColor: "red", fillColor: "red", fillOpacity: 0.3});
+
+    map.addOverlay(polygon1);
+    map.addOverlay(polygon2);
+
+    // 转换BMap坐标点为Turf.js格式
+    function convertToTurfPolygon(bmapPolygon) {
+        var path = bmapPolygon.getPath();
+        var coordinates = path.map(function(point) {
+            return [point.lng, point.lat];
+        });
+        coordinates.push(coordinates[0]); // Turf.js需要封闭多边形
+        console.log('coordinates', coordinates)
+
+        return turf.polygon([coordinates]);
+    }
+
+    var turfPolygon1 = convertToTurfPolygon(polygon1);
+    var turfPolygon2 = convertToTurfPolygon(polygon2);
+
+    // 检查多边形是否有效
+    console.log('Polygon 1:', JSON.stringify(turfPolygon1));
+    console.log('Polygon 2:', JSON.stringify(turfPolygon2));
+
+    // 计算交叉区域
+    var intersection = turf.intersect(turf.featureCollection([turfPolygon1, turfPolygon2]));
+    console.log('intersection', intersection)
+    if (intersection) {
+        var intersectionCoordinates = intersection.geometry.coordinates[0].map(function(coord) {
+            return new BMap.Point(coord[0], coord[1]);
+        });
+
+        var intersectionPolygon = new BMap.Polygon(intersectionCoordinates, {
+            strokeColor: "green",
+            fillColor: "green",
+            fillOpacity: 0.3
+        });
+
+        map.addOverlay(intersectionPolygon);
+    } else {
+        console.log("两个多边形没有交叉区域");
+    }
+</script>
+</body>
+</html>
