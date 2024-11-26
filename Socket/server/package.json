@@ -23,7 +23,7 @@
   "dependencies": {
     "axios": "^0.17.1",
     "codecov": "^3.0.0",
-    "jsonwebtoken": "^8.1.0",
+    "jsonwebtoken": "^9.0.0",
     "koa": "^2.3.0",
     "koa-body": "^4.1.0",
     "koa-compose": "^4.0.0",
