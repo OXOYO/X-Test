@@ -1,0 +1,15 @@
+{
+  "name": "capture-website",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "capture-website": "^4.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "themer -c default -t vim -t vim-lightline -t hyper -t wallpaper-block-wave -o gen"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
