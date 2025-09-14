@@ -1,0 +1,18 @@
+{
+  "name": "ai-picture_score",
+  "version": "1.0.0",
+  "description": "[照片美学评分系统](https://huggingface.co/spaces/inksnow/picture_score)",
+  "main": "picture_score_jpegjs.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tensorflow/tfjs-node": "^3.1.0",
+    "all": "^0.0.0",
+    "jpeg-js": "^0.4.4",
+    "onnxruntime-node": "^1.22.0-rev",
+    "sharp": "^0.34.3"
+  }
+}
