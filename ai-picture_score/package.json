@@ -9,8 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@tensorflow/tfjs-node": "^3.1.0",
-    "all": "^0.0.0",
     "jpeg-js": "^0.4.4",
     "onnxruntime-node": "^1.22.0-rev",
     "sharp": "^0.34.3"
