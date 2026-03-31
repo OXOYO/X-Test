@@ -40,7 +40,7 @@
     "mysql2": "^1.4.2",
     "require-directory": "^2.1.1",
     "sequelize": "^4.18.0",
-    "socket.io": "^2.3.0",
+    "socket.io": "^2.5.0",
     "uuid": "^3.3.2"
   },
   "devDependencies": {
